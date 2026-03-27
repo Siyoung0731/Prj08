@@ -99,7 +99,7 @@ class ProdVo {
 }
 //업무 처리 class
 class Product implements Ipo {
-	
+	//통일
 	private ProdVo p;
 	
 	@Override
@@ -155,7 +155,6 @@ class Product implements Ipo {
 	}
 	
 }
-
 public class TestProduct {
 	public static void main(String[] args) {
 		Product p = new Product();
